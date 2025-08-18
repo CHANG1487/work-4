@@ -1,4 +1,16 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.copyright {
+  padding-top: 32px;
+  text-align: center;
+  border-top: 1px solid $neutral-300;
+  font-size: 14px;
+  color: $neutral-600;
+}
+
+@media (max-width: 767px) {
+  .p-md-0 {
+    padding: 0px;
+  }
+  .container-md {
+    padding: 32px 12px;
+  }
 }
